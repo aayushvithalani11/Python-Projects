@@ -1,0 +1,18 @@
+num1 = input("Enter First Number: ")
+num2 = input("Enter Second Number: ")
+
+add_result = float(num1) + float(num2)
+sub_result = float(num1) - float(num2)
+mul_result = float(num1) * float(num2)
+div_result = float(num1) / float(num2)
+mod_result = float(num1) % float(num2)
+floor_result = float(num1) // float(num2)
+expo_result = float(num1) ** float(num2)
+
+print("Result For Addition: ", add_result)
+print("Result For Subtraction: ", sub_result)
+print("Result For Multiplication: ", mul_result)
+print("Result For Division: ", div_result)
+print("Result For Modulus: ", mod_result)
+print("Result For Floor Division: ", floor_result)
+print("Result For Exponentiation: ", expo_result)

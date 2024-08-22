@@ -1,0 +1,16 @@
+person1 = input("Enter name of first person: ")
+person2 = input("Enter name of second person: ")
+sport1 = input("Enter the name of sport played by person1: ")
+sport2 = input("Enter the name of sport played by person2: ")
+salary1 = input("Enter salary of person1: ")
+salary2 = input("Enter salary of person2: ")
+team1 = input("Enter team name: ")
+team2 = input("Enter team name: ")
+
+print(person1 + " & " + person2 + " are both famous sports players.")
+print(person1 + " plays " + sport1 + ".")
+print(person2 + " plays " + sport2 + ".")
+print("$" + salary1 + " is earned by " + person1 + " for playing in " + team1 + " per year. ")
+print("$" + salary2 + " is earned by " + person2 + " for playing in " + team2 + " per year. ")
+print(person1 + " & " + person2 + " have worked very hard to be at a level of being called as MVP and GOAT.")
+
